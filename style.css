@@ -11,6 +11,7 @@ h1{
     margin: 0px;
     color: palegoldenrod;
     font-size: 125px;
+    font-style: italic;
     position: relative;
     width: 100%;
     height: auto;
@@ -40,19 +41,70 @@ h2{
     position: relative;
     left: 26%;
     background-color: #434343;
+    border-color: rgba(138, 43, 226, 0.0);
+    border-radius: 5px;
+    height: 5vh;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+#abt:hover {
+    box-shadow: blueviolet 1px 0 60px;
+    border-color: rgba(138, 43, 226, 1.0);
+    background-color: rgb(213, 134, 255);
+    color: rgb(99, 32, 161);
 }
 
 #prj{
     position: relative;
     left: 35%;
-    background-color: #434343;}
+    background-color: #434343;
+    border-color: rgba(138, 43, 226, 0.0);
+    border-radius: 5px;
+    height: 5vh;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+#prj:hover {
+    box-shadow: blueviolet 1px 0 60px;
+    border-color: rgba(138, 43, 226, 1.0);
+    background-color: rgb(213, 134, 255);
+    color: rgb(99, 32, 161);
+}
 
 #lnk{
     position: relative;
     left: 46%;
-    background-color: #434343;}
+    border-color: rgba(138, 43, 226, 0.0);
+    background-color: #434343;
+    border-radius: 5px;
+    height: 5vh;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+#lnk:hover {
+    box-shadow: blueviolet 1px 0 60px;
+    border-color: rgba(138, 43, 226, 1.0);
+    background-color: rgb(213, 134, 255);
+    color: rgb(99, 32, 161);
+}
 
 #git{
     position: relative;
     left: 57%;
-    background-color: #434343;}
+    border-color: rgba(138, 43, 226, 0.0);
+    background-color: #434343;
+    border-radius: 5px;
+    height: 5vh;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+#git:hover {
+    box-shadow: blueviolet 1px 0 60px;
+    border-color: rgba(138, 43, 226, 1.0);
+    background-color: rgb(213, 134, 255);
+    color: rgb(99, 32, 161);
+}
