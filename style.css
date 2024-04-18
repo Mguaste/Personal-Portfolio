@@ -13,7 +13,6 @@ h1{
     font-size: 125px;
     font-style: italic;
     position: relative;
-    width: 100%;
     height: auto;
     top: 35vh;
     text-shadow: palegoldenrod 1px 0 40px;
@@ -26,7 +25,6 @@ h2{
     margin: 0;
     font-size: 40px;
     position: relative;
-    width: 100%;
     top: 34vh;
     text-shadow: #000000 0px 5px;
 }
@@ -113,5 +111,6 @@ h2{
 @media only screen and (max-width: 550) {
     h1 {
         font-size: 75px;
+        
     }
 }
