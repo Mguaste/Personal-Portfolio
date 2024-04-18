@@ -108,9 +108,12 @@ h2{
     color: rgb(213, 134, 255);
 }
 
-@media only screen and (max-width: 550) {
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
     h1 {
-        font-size: 75px;
-        
+        font-size: 80px;
+        width: 100vw;
     }
 }
