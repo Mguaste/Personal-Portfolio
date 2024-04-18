@@ -109,3 +109,9 @@ h2{
     background-color: rgb(138, 43, 226);
     color: rgb(213, 134, 255);
 }
+
+@media only screen and (max-width: 550) {
+    h1 {
+        font-size: 75px;
+    }
+}
